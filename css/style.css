@@ -1,0 +1,118 @@
+#main {
+    margin: auto;
+	border: 1px solid #cccccc;
+	width: 450px;
+    min-height:150px;
+	background: #F1F3F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size : 12px;
+    border-collapse:collapse;
+}
+
+#sender {
+   clear:both;   
+	border: 1px solid #cccccc;
+	width: 356px;
+	background: #E9ECEF;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   font-size : 12px;
+   padding:2px;
+   margin-bottom:10px;
+   margin-top:10px;
+   margin-left: 60px;
+}
+
+td {
+   padding:5px;
+}
+
+#result {
+    margin-top:20px;
+	 border: 1px solid #cccccc;
+	 width: 356px;
+	 background: #E9ECEF;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size : 12px;
+    padding:2px;
+    height:400px;
+    overflow:auto;
+}
+
+.error {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size : 10px;
+    color:#dd1111;
+    padding:5px;
+
+}
+
+
+.text {
+	border: 1px solid #cccccc;
+}
+
+input {
+    border: 0px solid #cccccc;
+}
+
+
+#titulo_aplicacion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin:10px;
+    font-size : 14px;
+    color:#C64934;
+}
+
+#icon{
+    width:60px;
+    height:100px;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    float:left;
+    background-image:url(icon.gif);
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+
+#logo{
+    width:160px;
+    height:160px;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    float:center;
+    background-image:url(logo.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+p{
+    margin:0px;
+    padding:0px;
+}
+
+.nombre{
+    font-weight:bold;
+    font-style: italic;
+    color:#999;
+}
+
+.txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:12px;
+    color:#333;
+}
+
+#mchat{
+    border:0px;
+    width:100%;
+}
