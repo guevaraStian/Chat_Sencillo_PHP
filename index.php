@@ -143,7 +143,7 @@ if (!isset($_SESSION['nombre_nick']) ){
         }
      ?>
       </div>
-      <div id="sender" onkeyup="keypressed(event);">
+      <div id="areaenvio" onkeyup="keypressed(event);">
          Mensaje: <input type="text" name="msj" size="30" id="msj" />
          <button onclick="doWork();">Enviar</button>
       </div>   

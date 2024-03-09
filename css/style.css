@@ -1,20 +1,20 @@
 #main {
     margin: auto;
-	border: 1px solid #cccccc;
+	border: 1px solid #030303;
 	width: 450px;
     min-height:150px;
-	background: #F1F3F5;
+	background: #030303;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size : 12px;
     border-collapse:collapse;
 }
 
-#sender {
+#areaenvio {
    clear:both;   
-	border: 1px solid #cccccc;
+	border: 1px solid #303030;
 	width: 356px;
-	background: #E9ECEF;
+	background: #dd1111;
    font-family: Arial, Helvetica, sans-serif;
    font-weight:bold;
    font-size : 12px;
@@ -30,9 +30,9 @@ td {
 
 #result {
     margin-top:20px;
-	 border: 1px solid #cccccc;
+	 border: 1px solid #303030;
 	 width: 356px;
-	 background: #E9ECEF;
+	 background: #303030;
     text-align:left;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
@@ -66,7 +66,7 @@ input {
     font-weight:bold;
     margin:10px;
     font-size : 14px;
-    color:#C64934;
+    color:#dd1111;
 }
 
 #icon{
@@ -102,14 +102,14 @@ p{
 .nombre{
     font-weight:bold;
     font-style: italic;
-    color:#999;
+    color: #dd1111;
 }
 
 .txt {
     font-family: Arial, Helvetica, sans-serif;
     font-weight:normal;
     font-size:12px;
-    color:#333;
+    color:#dd1111;
 }
 
 #mchat{
