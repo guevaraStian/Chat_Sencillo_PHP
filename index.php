@@ -1,8 +1,8 @@
 <!--
 Aplicacion de chat de manera sencilla
 
+El primer paso es activar la sesion y crear un formulario donde se ingresa el nombre del usuario del chat
 -->
-
 
 <?php
 session_start();
@@ -38,6 +38,7 @@ $nombre_nick = isset($_SESSION['nombre_nick']) ? $_SESSION['nombre_nick'] : "Hid
 <!DOCTYPE >
 <html>
 <head>
+   <!-- En el head, se importan los css que se encuentran dentro de la carpeta, tambien se declara un sector de javascript-->
    <title>Chat Sencillo </title>
    <link href="css/style.css" rel="stylesheet" type="text/css" />
    <link href="/css/globe.png" rel="shortcut icon">
@@ -48,7 +49,7 @@ $nombre_nick = isset($_SESSION['nombre_nick']) ? $_SESSION['nombre_nick'] : "Hid
       var timerID = 0;
       var nombre_nick = "<?php echo $nombre_nick; ?>";
 
-      // Obtener el objeto HTTP
+      // Se logra obtener el objeto HTTP con el siguiente comando
       function getHTTPObject(){
          if (window.ActiveXObject) return new ActiveXObject("Microsoft.XMLHTTP");
          else if (window.XMLHttpRequest) return new XMLHttpRequest();
@@ -58,7 +59,7 @@ $nombre_nick = isset($_SESSION['nombre_nick']) ? $_SESSION['nombre_nick'] : "Hid
          }
       }   
 
-      // Cambiar el valor del campo outputText
+      // En el siguiente cambio, se logra cambiar el valor del campo outputText con el mensaje
       function setOutput(){
          if(httpObject.readyState == 4){
             var response = httpObject.responseText;
@@ -71,7 +72,7 @@ $nombre_nick = isset($_SESSION['nombre_nick']) ? $_SESSION['nombre_nick'] : "Hid
          }
       }
 
-      // Cambiar el valor del campo outputText
+      // Esta funcion, nos muestra el valor del campo outputText
       function setAll(){
          if(httpObject.readyState == 4){
             var response = httpObject.responseText;
@@ -118,7 +119,7 @@ $nombre_nick = isset($_SESSION['nombre_nick']) ? $_SESSION['nombre_nick'] : "Hid
     //-->
     </script>   
 </head>
-
+<!-- A continuacion se muestra el HTML donde se muestra el acceso al chat y su historial-->
    
 <center><div id="logo">&nbsp;</div></center><br>
    

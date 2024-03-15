@@ -1,4 +1,6 @@
-<?php 
+<?php
+//En el siguiente codigo, se muestra la logica de el mensaje dentro del chat que esta en index, usando el GET de php 
+
 	if (isset($_GET['msj'])){
 		if (file_exists('mensajechat.html')) {
 		   $f = fopen('mensajechat.html',"a+");
